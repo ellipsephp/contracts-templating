@@ -8,8 +8,8 @@ interface EngineInterface
      * Return a html string from a template file and a list of values.
      *
      * @param string    $file
-     * @param array     $values
+     * @param array     $data
      * @return string
      */
-    public function render(string $file, array $values = []): string;
+    public function render(string $file, array $data = []): string;
 }
