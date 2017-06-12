@@ -1,0 +1,34 @@
+{
+    "name": "ellipse/contracts-templating",
+    "type": "library",
+    "description": "The template engine interface of the ellipse framework",
+    "keywords": [
+        "template",
+        "templating"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ellipsephp/contracts-templating",
+    "support": {
+        "issues": "https://github.com/ellipsephp/contracts-templating/issues",
+        "source": "https://github.com/ellipsephp/contracts-templating"
+    },
+    "authors": [
+        {
+            "name": "Pierre Mallinjoud",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ellipse\\Contracts\\Templating\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
