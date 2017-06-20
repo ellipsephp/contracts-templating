@@ -5,6 +5,15 @@ namespace Ellipse\Contracts\Templating;
 interface EngineInterface
 {
     /**
+     * Register a namespace containing template files.
+     *
+     * @param string $namespace
+     * @param string $path
+     * @return void
+     */
+    public function registerNamespace(string $namespace, string $path): void;
+
+    /**
      * Register the given callable as a function in the template engine.
      *
      * @param string    $name
