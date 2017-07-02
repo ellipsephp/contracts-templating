@@ -2,7 +2,7 @@
 
 namespace Ellipse\Contracts\Templating;
 
-interface EngineInterface
+interface EngineAdapterInterface
 {
     /**
      * Register a namespace containing template files.
