@@ -23,6 +23,15 @@ interface EngineAdapterInterface
     public function registerFunction(string $name, callable $cb): void;
 
     /**
+     * Register an extension for the template engine.
+     *
+     * @param mixed     $extension
+     * @param callable  $cb
+     * @return void
+     */
+    public function registerExtension($extension): void;
+
+    /**
      * Return a html string from a template file and a list of values.
      *
      * @param string    $file
